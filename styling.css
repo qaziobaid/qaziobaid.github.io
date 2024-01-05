@@ -1,52 +1,65 @@
 h1 {
-    color: rgb(0, 255, 170);
-}
-h1:hover {
-    color: darkgray
-}
-
-html, body {
-    min-height: 100%;
-}
-
-body, div, form, input, select, textarea, label, p {
-    padding: 0;
-    margin: 0;
-    outline: none;
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
-    color: #666;
-    line-height: 22px;
-}
-
-h1 {
     position: absolute;
-    margin: 0;
     font-size: 40px;
     color: #fff;
     z-index: 2;
     line-height: 83px;
 }
 
-textarea {
-    width: calc(100% - 12px);
-    padding: 5px;
+h1:hover {
+    background: linear-gradient(to right, #013541, #b04100);
+    -webkit-background-clip: text;
+    background-clip: text; /* Standard property for compatibility */
+    color: transparent;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120vh;
+    background: linear-gradient(to right, #013541, #b04100);
 }
 
 .testbox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: inherit;
+    width: 800px; /* Adjust the width as needed */
     padding: 20px;
+    border-radius: 8px;
 }
+
+.columns {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Adjust margin as needed */
+    max-width: 250px; /* Set the maximum width as needed */
+    width: 100%; /* Make sure it takes the full width within the specified max-width */
+}
+
+.item label {
+    margin-bottom: 5px; /* Adjust margin as needed */
+}
+
+body, div, form, input, select, textarea, label, p {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 22px;
+    outline: none;
+}
+
 
 form {
     width: 100%;
     padding: 20px;
     border-radius: 6px;
-    background: #fff;
-    box-shadow: 0 0 8px #669999;
+    background: #ffffff21;
+    box-shadow: 0 0 8px #395050;
+    filter: blur(50%);
 }
 
 .banner {
@@ -58,4 +71,7 @@ form {
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 0 8px #000000;
+    margin-bottom: 20px;
 }
