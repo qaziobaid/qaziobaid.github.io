@@ -1,0 +1,35 @@
+/* styles.css */
+
+body {
+  background: linear-gradient(to right, #013541, #b04100);
+  color: white;
+}
+
+.navbar {
+  background: linear-gradient(to right, #013541, #b04100) !important;
+}
+
+.navbar .navbar-brand {
+  color: white !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: white !important;
+}
+
+#col1 {
+  background: linear-gradient(to right, #013541, #b04100);
+  color: white;
+  padding: 20px;
+  border-radius: 10px; /* Optional: Add border-radius for a rounded corner effect */
+}
+
+h2 {
+  color: white;
+}
+
+form.d-flex button.btn-outline-success {
+  color: #b04100 !important;
+  background-color: #013541 !important;
+  border-color: #013541 !important;
+}

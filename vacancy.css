@@ -1,0 +1,47 @@
+
+body {
+    background: linear-gradient(to right, #013541, #b04100);
+    color: white;
+  }
+  
+  .navbar {
+    background: linear-gradient(to right, #013541, #b04100) !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: white !important;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+    color: white !important;
+  }
+
+  .navbar-nav .dropdown-menu .dropdown-item {
+    color: #000000; /* Black text color for dropdown menu items */
+  }
+
+  /* Navbar Link Styles */
+  .navbar a {
+    color: #ffffff; /* White text color for navbar links */
+  }
+  
+  /* Card Styles */
+  .card {
+    background-color: #01354186; /* Black background color for cards */
+    color: #ffffff; /* White text color for cards */
+  }
+  
+.card-body .card-text small.text-body-secondary {
+    color: #ffffff !important; /* Adding !important to ensure it takes precedence */
+  }
+
+  /* Button Styles */
+  .btn {
+    color: #000000; /* Black text color for buttons */
+  }
+
+
+
+  
+  
+  
